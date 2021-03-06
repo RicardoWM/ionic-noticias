@@ -16,7 +16,7 @@
 
   <app-noticias [noticias]="noticias"></app-noticias>
 
-  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData()">
     <ion-infinite-scroll-content
       loadingSpinner="crescent"
       loadingText="Cargando más noticias...">
